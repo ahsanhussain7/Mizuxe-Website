@@ -1,0 +1,44 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background-color: #fff; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  background-image: url(../imgs/overlay.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(50, 146, 166, 0.8); }
+
+.info-header {
+  width: 50%;
+  border-bottom: 1px solid #000;
+  margin: auto; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background-color: rgba(50, 146, 166, 0.8);
+  color: #fff; }
+  #authors .card:hover .fab {
+    color: #fff; }
+
+@media (max-width: 768px) {
+  .mb-resp {
+    margin-bottom: 1rem; } }
+@media (max-width: 1200px) {
+  .card-body h3 {
+    font-size: 1.4rem; } }
